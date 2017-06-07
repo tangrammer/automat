@@ -1,9 +1,8 @@
-(defproject automat "0.2.2"
+(defproject tangrammer/automat "0.2.2.5"
   :description ""
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
-  :dependencies [[rhizome "0.2.7"]
-                 [primitive-math "0.1.5"]
+  :dependencies [[primitive-math "0.1.5"]
                  [potemkin "0.4.3"]
                  [proteus "0.1.6"]]
   :profiles {:dev {:dependencies [[org.clojure/clojure "1.8.0"]
